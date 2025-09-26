@@ -1,0 +1,88 @@
+/* nav start here */
+.nav {
+  padding: 15px 10px;
+  flex-direction: column;
+}
+
+.nav h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* main start here */
+.main {
+  background-color: #f1f1f1;
+  padding: 0px 10px;
+}
+/* banner start here */
+.banner {
+  gap: 10px;
+  padding: 10px 0px;
+}
+
+.banner1,
+.banner2 {
+  padding: 20px 0;
+  width: 50%;
+}
+
+.banner1 {
+  background: none, none, linear-gradient(to right bottom, #422ad5, #9f62f2);
+}
+
+.banner2 {
+  background: none, none, linear-gradient(to left bottom, #00827a, #63d375);
+}
+
+.banner__title {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.count {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* footer start here */
+.footer {
+  padding: 30px 10px 0px;
+}
+
+.footer-in {
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__info {
+  width: 100%;
+}
+
+.footer__info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.footer__link {
+  width: 100%;
+  flex-direction: column;
+}
+
+.footer__link h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.license {
+  padding: 15px 0;
+}
