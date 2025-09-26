@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+:root {
+  --dark1: #627382;
+}
+
+button {
+  padding: 10px 20px;
+  background: linear-gradient(to right bottom, #422ad5, #9f62f2);
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* nav start here */
+.nav {
+  padding: 26px 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav h1 {
+  font-size: 24px;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav__link {
+  color: var(--dark1);
+}
+
+/* main start here */
+.main {
+  background-color: #f1f1f1;
+  padding: 0px 80px;
+}
+/* banner start here */
+.banner {
+  display: flex;
+  gap: 40px;
+  padding: 70px 0px;
+}
+
+.banner1,
+.banner2 {
+  padding: 50px 0;
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 7px;
+}
+
+.banner1 {
+  background: url("../assets/vector1.png"), url("../assets/vector2.png"), linear-gradient(to right bottom, #422ad5, #9f62f2);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+}
+
+.banner2 {
+  background: url("../assets/vector1.png"), url("../assets/vector2.png"), linear-gradient(to left bottom, #00827a, #63d375);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+}
+
+.banner__title {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.count {
+  font-size: 60px;
+  font-weight: bold;
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1001,
+    "title": "Login page error",
+    "description": "Users cannot log in with correct credentials, causing frustration and preventing access to essential account features.",
+    "customer": "Alice",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "01/09/2025"
+  },
+  {
+    "id": 1002,
+    "title": "Payment gateway timeout",
+    "description": "Payment processing intermittently fails during checkout, delaying purchases and leading to customer dissatisfaction and potential revenue loss.",
+    "customer": "Bob",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "03/09/2025"
+  },
+  {
+    "id": 1003,
+    "title": "UI glitch on dashboard",
+    "description": "Graphs and widgets overlap or disappear when resizing the dashboard, making monitoring and analysis tasks difficult for users.",
+    "customer": "Charlie",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "05/09/2025"
+  },
+  {
+    "id": 1004,
+    "title": "Email notifications not sent",
+    "description": "Automated email notifications fail to reach users, causing missed alerts and delays in responding to critical system updates.",
+    "customer": "Diana",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "07/09/2025"
+  },
+  {
+    "id": 1005,
+    "title": "Profile picture upload fails",
+    "description": "Uploading profile pictures larger than two megabytes fails, frustrating users who wish to personalize their account profiles properly.",
+    "customer": "Eve",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "09/09/2025"
+  },
+  {
+    "id": 1006,
+    "title": "Slow search functionality",
+    "description": "Search requests take longer than ten seconds to return results, reducing efficiency and making the application less user-friendly overall.",
+    "customer": "Frank",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "11/09/2025"
+  },
+  {
+    "id": 1007,
+    "title": "Broken links on FAQ page",
+    "description": "Several links on the FAQ page lead to error pages, leaving users unable to find answers to common questions effectively.",
+    "customer": "Grace",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "13/09/2025"
+  },
+  {
+    "id": 1008,
+    "title": "Data export not working",
+    "description": "Exporting large datasets to CSV format fails consistently, preventing users from analyzing data externally and completing their tasks efficiently.",
+    "customer": "Henry",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "15/09/2025"
+  },
+  {
+    "id": 1009,
+    "title": "Incorrect total in reports",
+    "description": "Monthly reports display inaccurate totals for sales data, causing confusion and affecting decision-making processes for management and stakeholders.",
+    "customer": "Irene",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "17/09/2025"
+  },
+  {
+    "id": 1010,
+    "title": "Mobile layout broken",
+    "description": "The mobile layout appears distorted on small screens, causing navigation difficulties and reducing overall usability for smartphone users.",
+    "customer": "Jack",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "19/09/2025"
+  },
+  {
+    "id": 1011,
+    "title": "Session timeout too short",
+    "description": "Users are logged out after only five minutes of inactivity, interrupting workflows and forcing repeated logins unnecessarily.",
+    "customer": "Kate",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "21/09/2025"
+  },
+  {
+    "id": 1012,
+    "title": "Error 500 on checkout",
+    "description": "During the checkout process, the server returns an error 500, preventing users from completing purchases and causing order failures.",
+    "customer": "Leo",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "23/09/2025"
+  }
+]
