@@ -1,4 +1,4 @@
-# Questions & Answer
+# Questions & Answers
 
 > ### Question 01: What is JSX, and why is it used?
 

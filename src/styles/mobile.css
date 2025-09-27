@@ -21,6 +21,7 @@
 
   button {
     font-size: 14px;
+    white-space: nowrap;
   }
 
   /* main start here */
@@ -135,6 +136,11 @@
 
   .card-ft i {
     font-size: 16px;
+  }
+
+  .card__footer div {
+    gap: 10px;
+    align-items: center;
   }
   /* task start here */
   .task {
