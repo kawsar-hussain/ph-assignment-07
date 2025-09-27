@@ -77,22 +77,22 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="" className="link">
-                  <i class="fa-brands fa-x-twitter"></i> @CS — Ticket System
+                  <i className="fa-brands fa-x-twitter"></i> @CS — Ticket System
                 </a>
               </li>
               <li>
                 <a href="" className="link">
-                  <i class="fa-brands fa-linkedin-in"></i> @CS — Ticket System
+                  <i className="fa-brands fa-linkedin-in"></i> @CS — Ticket System
                 </a>
               </li>
               <li>
                 <a href="" className="link">
-                  <i class="fa-brands fa-facebook-f"></i> @CS — Ticket System
+                  <i className="fa-brands fa-facebook-f"></i> @CS — Ticket System
                 </a>
               </li>
               <li>
                 <a href="" className="link">
-                  <i class="fa-solid fa-envelope"></i> support@cst.com
+                  <i className="fa-solid fa-envelope"></i> support@cst.com
                 </a>
               </li>
             </ul>

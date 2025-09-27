@@ -1,11 +1,13 @@
 import React from "react";
-import Banner from "./Banner";
+import Ticket from "./Ticket";
 
-const Main = () => {
+const ticketPromise = fetch("./ticket.json").then((res) => res.json());
+
+const Main = ({ incrementInProgress, decrementInProgress, incrementResolved }) => {
   return (
-    <div className="main">
-      <Banner></Banner>
-    </div>
+    <main>
+      <Ticket ticketPromise={ticketPromise} incrementInProgress={incrementInProgress} decrementInProgress={decrementInProgress} incrementResolved={incrementResolved} />
+    </main>
   );
 };
 
