@@ -92,4 +92,72 @@
   .license {
     padding: 15px 0;
   }
+
+  /*! ticket start here  */
+  .ticket {
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 10px 10px 20px;
+  }
+
+  .ticketSection {
+    width: 100%;
+  }
+
+  .card-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .card__header h4 {
+    font-size: 16px;
+  }
+
+  .card__header__green,
+  .card__header__yellow {
+    font-size: 14px;
+  }
+
+  .card__desc {
+    font-size: 15px;
+  }
+
+  .card__footer {
+    font-size: 14px;
+  }
+
+  .card-ft {
+    font-size: 13px;
+  }
+
+  .card-ft i {
+    font-size: 16px;
+  }
+  /* task start here */
+  .task {
+    width: 100%;
+    height: auto;
+  }
+
+  .task h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+
+  .status-container,
+  .resolved-container {
+    width: 100%;
+  }
+
+  .status {
+    margin-bottom: 40px;
+  }
+
+  .status-btn {
+    background: #09ac0e;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 15px;
+  }
 }

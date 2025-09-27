@@ -16,11 +16,11 @@ const SingleTicket = ({ title, status, description, id, priority, customer, date
       </div>
       <p className="card__desc">{description}</p>
       <div className="card__footer">
-        <div>
+        <div className="card-ft">
           <p>#{id}</p>
           <p className={priority === "High Priority" ? "red" : priority === "Medium Priority" ? "yellow" : "green"}>{priority}</p>
         </div>
-        <div>
+        <div className="card-ft">
           <p>{customer}</p>
           <p>
             <i className="fa-solid fa-calendar-days"></i> {date}
