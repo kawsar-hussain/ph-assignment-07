@@ -1,16 +1,31 @@
-# React + Vite
+# Questions & Answer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> ### Question 01: What is JSX, and why is it used?
 
-Currently, two official plugins are available:
+`JSX` stands for JavaScript XML, it'a a syntax of using react like HTML but not HTML. We can say `JSX = JavaScript + HTML`. It give us write html code in javascript then it convert this html to javascript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+> ### Question 02: What is the difference between State and Props?
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+`Props:` It is a system of send data from parent component to child component. It's like a parameter of a function. A child component cannot change this. It's read only.
 
-## Expanding the ESLint configuration
+`State:` It can store inside a component and it can be change by use setState and useState. It's like like local function variable.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+> ### Question 03: What is the useState hook, and how does it work?
+
+`useState` is a hook function of react. a changed data can store here. It's return two thing. One is value and second is function, which function can update value.
+
+---
+
+> ### Question 04: How can you share state between components in React?
+
+We can store a state in common parent component then we can send this to child component by props.
+
+---
+
+> ### Question 05: How is event handling done in React?
+
+We have to write event name in camelCase like `onClick={handleClick}`. give direct reference not string when we give a function in this like `{handleClick}` .
